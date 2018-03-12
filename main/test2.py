@@ -54,7 +54,7 @@ class PythonOrgSearch(unittest.TestCase):
         username_input.send_keys("zhangyue0808@foxmail.com")
 
         pwd_input = driver.find_element_by_id("TANGRAM__PSP_3__password")
-        pwd_input.send_keys("zhangyue0808")
+        pwd_input.send_keys("******")
 
         inputCode = raw_input("请输入验证码：")
         print "输入的验证码是:" + inputCode
